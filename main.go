@@ -43,7 +43,7 @@ func ReadPacman(file *os.File) {
 	}
 }
 
-func processLine(line string) {
+func processLine(line string) { // where we print the messages as soon as we find a word that we chose
 	line = strings.TrimSpace(line)
 	lowerLine := strings.ToLower(line)
 
