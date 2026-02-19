@@ -48,10 +48,6 @@ func processLine(line string) { // where we print the messages as soon as we fin
 		fmt.Printf("WARNING: %s\n", line)
 	} else if strings.Contains(lowerLine, "error") {
 		fmt.Printf("ERROR: %s\n", line)
-	} else if strings.Contains(lowerLine, "installed") {
-		fmt.Printf("INSTALLED: %s\n", line)
-	} else if strings.Contains(lowerLine, "removed") {
-		fmt.Printf("REMOVED: %s\n", line)
 	}
 }
 
