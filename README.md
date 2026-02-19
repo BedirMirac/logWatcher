@@ -27,7 +27,7 @@ git clone https://github.com/BedirMirac/logWatcher.git
 cd logWatcher
 go install
 ```
-It is look like go build method but the difference is now you can start the program  by typing `logWatcher` in your terminal without being in the project directory.
+It looks like the go build method but the difference is now you can start the program  by typing `logWatcher` in your terminal without being in the project directory.
 
 ## Contributing
 We welcome contributions! Please read our contributing guidelines before submitting a pull request.
